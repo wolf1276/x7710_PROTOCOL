@@ -169,7 +169,7 @@ export default function Navbar() {
         }`}
       >
         <div className="flex flex-col gap-4 py-4 border-t border-zinc-150">
-          {/* Products Accordion */}
+          
           <div>
             <button
               onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
@@ -200,7 +200,6 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Resources Accordion */}
           <div>
             <button
               onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}
