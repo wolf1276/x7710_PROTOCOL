@@ -1,0 +1,2263 @@
+{
+  "generators": {
+    "address": 8,
+    "nonce": 0
+  },
+  "auth": [
+    [
+      [
+        "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+        {
+          "function": {
+            "contract_fn": {
+              "contract_address": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V",
+              "function_name": "register_account",
+              "args": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "address": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK"
+                },
+                {
+                  "vec": [
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "sub_invocations": []
+        }
+      ]
+    ],
+    [
+      [
+        "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+        {
+          "function": {
+            "contract_fn": {
+              "contract_address": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK",
+              "function_name": "set_policy",
+              "args": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "allowed_assets"
+                      },
+                      "val": {
+                        "vec": [
+                          {
+                            "symbol": "USDC"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "daily_reset_ledger"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "daily_spent"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 0
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "expiry_ledger"
+                      },
+                      "val": {
+                        "u32": 1000000
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "max_daily_spend"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 50000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "max_spend_per_action"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 10000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "owner"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "sub_invocations": []
+        }
+      ]
+    ],
+    [
+      [
+        "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE",
+        {
+          "function": {
+            "contract_fn": {
+              "contract_address": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+              "function_name": "set_admin",
+              "args": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+                }
+              ]
+            }
+          },
+          "sub_invocations": []
+        }
+      ]
+    ],
+    [
+      [
+        "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM",
+        {
+          "function": {
+            "contract_fn": {
+              "contract_address": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+              "function_name": "mint",
+              "args": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "i128": {
+                    "hi": 0,
+                    "lo": 10000000000
+                  }
+                }
+              ]
+            }
+          },
+          "sub_invocations": []
+        }
+      ]
+    ],
+    [
+      [
+        "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+        {
+          "function": {
+            "contract_fn": {
+              "contract_address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M",
+              "function_name": "execute_action",
+              "args": [
+                {
+                  "address": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V"
+                },
+                {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "agent"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "amount"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 5000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "asset_contract"
+                      },
+                      "val": {
+                        "address": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23"
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "destination"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "owner"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "sub_invocations": [
+            {
+              "function": {
+                "contract_fn": {
+                  "contract_address": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+                  "function_name": "transfer",
+                  "args": [
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+                    },
+                    {
+                      "i128": {
+                        "hi": 0,
+                        "lo": 5000000000
+                      }
+                    }
+                  ]
+                }
+              },
+              "sub_invocations": []
+            }
+          ]
+        }
+      ]
+    ]
+  ],
+  "ledger": {
+    "protocol_version": 21,
+    "sequence_number": 0,
+    "timestamp": 0,
+    "network_id": "0000000000000000000000000000000000000000000000000000000000000000",
+    "base_reserve": 0,
+    "min_persistent_entry_ttl": 4096,
+    "min_temp_entry_ttl": 16,
+    "max_entry_ttl": 6312000,
+    "ledger_entries": [
+      [
+        {
+          "account": {
+            "account_id": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "account": {
+                "account_id": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE",
+                "balance": 0,
+                "seq_num": 0,
+                "num_sub_entries": 0,
+                "inflation_dest": null,
+                "flags": 0,
+                "home_domain": "",
+                "thresholds": "01010101",
+                "signers": [],
+                "ext": "v0"
+              }
+            },
+            "ext": "v0"
+          },
+          null
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE",
+            "key": {
+              "ledger_key_nonce": {
+                "nonce": 2032731177588607455
+              }
+            },
+            "durability": "temporary"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE",
+                "key": {
+                  "ledger_key_nonce": {
+                    "nonce": 2032731177588607455
+                  }
+                },
+                "durability": "temporary",
+                "val": "void"
+              }
+            },
+            "ext": "v0"
+          },
+          6311999
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM",
+            "key": {
+              "ledger_key_nonce": {
+                "nonce": 801925984706572462
+              }
+            },
+            "durability": "temporary"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM",
+                "key": {
+                  "ledger_key_nonce": {
+                    "nonce": 801925984706572462
+                  }
+                },
+                "durability": "temporary",
+                "val": "void"
+              }
+            },
+            "ext": "v0"
+          },
+          6311999
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+            "key": {
+              "ledger_key_nonce": {
+                "nonce": 5541220902715666415
+              }
+            },
+            "durability": "temporary"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+                "key": {
+                  "ledger_key_nonce": {
+                    "nonce": 5541220902715666415
+                  }
+                },
+                "durability": "temporary",
+                "val": "void"
+              }
+            },
+            "ext": "v0"
+          },
+          6311999
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M",
+            "key": "ledger_key_contract_instance",
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M",
+                "key": "ledger_key_contract_instance",
+                "durability": "persistent",
+                "val": {
+                  "contract_instance": {
+                    "executable": {
+                      "wasm": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                    },
+                    "storage": null
+                  }
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+            "key": {
+              "ledger_key_nonce": {
+                "nonce": 1033654523790656264
+              }
+            },
+            "durability": "temporary"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+                "key": {
+                  "ledger_key_nonce": {
+                    "nonce": 1033654523790656264
+                  }
+                },
+                "durability": "temporary",
+                "val": "void"
+              }
+            },
+            "ext": "v0"
+          },
+          6311999
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+            "key": {
+              "ledger_key_nonce": {
+                "nonce": 4837995959683129791
+              }
+            },
+            "durability": "temporary"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+                "key": {
+                  "ledger_key_nonce": {
+                    "nonce": 4837995959683129791
+                  }
+                },
+                "durability": "temporary",
+                "val": "void"
+              }
+            },
+            "ext": "v0"
+          },
+          6311999
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+            "key": {
+              "ledger_key_nonce": {
+                "nonce": 8370022561469687789
+              }
+            },
+            "durability": "temporary"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4",
+                "key": {
+                  "ledger_key_nonce": {
+                    "nonce": 8370022561469687789
+                  }
+                },
+                "durability": "temporary",
+                "val": "void"
+              }
+            },
+            "ext": "v0"
+          },
+          6311999
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM",
+            "key": {
+              "ledger_key_nonce": {
+                "nonce": 4270020994084947596
+              }
+            },
+            "durability": "temporary"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM",
+                "key": {
+                  "ledger_key_nonce": {
+                    "nonce": 4270020994084947596
+                  }
+                },
+                "durability": "temporary",
+                "val": "void"
+              }
+            },
+            "ext": "v0"
+          },
+          6311999
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "AgentList"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "AgentList"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "vec": [
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "Owner"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "Owner"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "active"
+                      },
+                      "val": {
+                        "bool": true
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "created_ledger"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "owner"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "policy_contract"
+                      },
+                      "val": {
+                        "address": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V",
+            "key": "ledger_key_contract_instance",
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V",
+                "key": "ledger_key_contract_instance",
+                "durability": "persistent",
+                "val": {
+                  "contract_instance": {
+                    "executable": {
+                      "wasm": "da0f21c9daa86002441d842de626fe7882b7111d509c0936db66f0dda444cd78"
+                    },
+                    "storage": null
+                  }
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "Policy"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "Policy"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "allowed_assets"
+                      },
+                      "val": {
+                        "vec": [
+                          {
+                            "symbol": "USDC"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "daily_reset_ledger"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "daily_spent"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 5000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "expiry_ledger"
+                      },
+                      "val": {
+                        "u32": 1000000
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "max_daily_spend"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 50000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "max_spend_per_action"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 10000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "owner"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK",
+            "key": "ledger_key_contract_instance",
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK",
+                "key": "ledger_key_contract_instance",
+                "durability": "persistent",
+                "val": {
+                  "contract_instance": {
+                    "executable": {
+                      "wasm": "e91f1bef338d10e50702f9db78795c285c468e8dac6f0aca224c8490e95ef4ae"
+                    },
+                    "storage": null
+                  }
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "Balance"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "Balance"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "amount"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 5000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "authorized"
+                      },
+                      "val": {
+                        "bool": true
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "clawback"
+                      },
+                      "val": {
+                        "bool": false
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          518400
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+            "key": {
+              "vec": [
+                {
+                  "symbol": "Balance"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+                }
+              ]
+            },
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+                "key": {
+                  "vec": [
+                    {
+                      "symbol": "Balance"
+                    },
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+                    }
+                  ]
+                },
+                "durability": "persistent",
+                "val": {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "amount"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 5000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "authorized"
+                      },
+                      "val": {
+                        "bool": true
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "clawback"
+                      },
+                      "val": {
+                        "bool": false
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          518400
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+            "key": "ledger_key_contract_instance",
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23",
+                "key": "ledger_key_contract_instance",
+                "durability": "persistent",
+                "val": {
+                  "contract_instance": {
+                    "executable": "stellar_asset",
+                    "storage": [
+                      {
+                        "key": {
+                          "symbol": "METADATA"
+                        },
+                        "val": {
+                          "map": [
+                            {
+                              "key": {
+                                "symbol": "decimal"
+                              },
+                              "val": {
+                                "u32": 7
+                              }
+                            },
+                            {
+                              "key": {
+                                "symbol": "name"
+                              },
+                              "val": {
+                                "string": "aaa:GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE"
+                              }
+                            },
+                            {
+                              "key": {
+                                "symbol": "symbol"
+                              },
+                              "val": {
+                                "string": "aaa"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "key": {
+                          "vec": [
+                            {
+                              "symbol": "Admin"
+                            }
+                          ]
+                        },
+                        "val": {
+                          "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+                        }
+                      },
+                      {
+                        "key": {
+                          "vec": [
+                            {
+                              "symbol": "AssetInfo"
+                            }
+                          ]
+                        },
+                        "val": {
+                          "vec": [
+                            {
+                              "symbol": "AlphaNum4"
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "asset_code"
+                                  },
+                                  "val": {
+                                    "string": "aaa\\0"
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "issuer"
+                                  },
+                                  "val": {
+                                    "bytes": "0000000000000000000000000000000000000000000000000000000000000008"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          120960
+        ]
+      ],
+      [
+        {
+          "contract_code": {
+            "hash": "da0f21c9daa86002441d842de626fe7882b7111d509c0936db66f0dda444cd78"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_code": {
+                "ext": {
+                  "v1": {
+                    "ext": "v0",
+                    "cost_inputs": {
+                      "ext": "v0",
+                      "n_instructions": 683,
+                      "n_functions": 17,
+                      "n_globals": 3,
+                      "n_table_entries": 0,
+                      "n_types": 13,
+                      "n_data_segments": 1,
+                      "n_elem_segments": 0,
+                      "n_imports": 13,
+                      "n_exports": 8,
+                      "n_data_segment_bytes": 103
+                    }
+                  }
+                },
+                "hash": "da0f21c9daa86002441d842de626fe7882b7111d509c0936db66f0dda444cd78",
+                "code": "0061736d0100000001480d60037e7e7e017e60047e7e7e7e017e6000017e60027e7e017e60017e017e60027f7e0060017e017f60037f7f7f0060037f7e7e0060017f017e60000060027e7e0060027f7f017e024f0d016d01390000016d016100010176015f00020176016400030161013000040176013300040178013300020178013100030176016700030162016a0003016c01310003016c01300003016c015f000003121105030604070809040a0304000b070c0a0a05030100110619037f01418080c0000b7f0041e780c0000b7f0041f080c0000b077608066d656d6f72790200136765745f706f6c6963795f636f6e747261637400141369735f617574686f72697a65645f6167656e7400160b6c6973745f6167656e747300171072656769737465725f6163636f756e740018015f001d0a5f5f646174615f656e6403010b5f5f686561705f6261736503020ae40c114b01017e420021020240024042012001108e808080002201108f80808000450d002001109080808000220242ff018342cb00520d0120002002370308420121020b200020023703000f0b000b950101017f23808080800041106b220224808080800002400240024002402000a7410171450d00200241cd80c08000410910918080800020022802000d022002200229030820011092808080000c010b200241c880c08000410510918080800020022802000d012002200229030820011092808080000b200229030821002002290300500d010b000b200241106a24808080800020000b0f0020004201108b808080004201510b0c0020004201108a808080000b5102017f017e23808080800041106b2203248080808000200320012002109a8080800042012104024020032802000d0020002003290308370308420021040b20002004370300200341106a2480808080000b4801017f23808080800041106b2203248080808000200320023703082003200137030020034102109b8080800021022000420037030020002002370308200341106a2480808080000b7702017f017e23808080800041206b22012480808080002001200029030837031820012000290300370310200120003100143703002001200035021042208642048437030841a880c08000ad4220864204842001ad4220864204844284808080c0001080808080002102200141206a24808080800020020be50101027f23808080800041206b2201248080808000024002400240200042ff018342cd00520d0042002000108e808080002200108f80808000450d0120001090808080002100410021020240034020024120460d01200120026a4202370300200241086a21020c000b0b200042ff018342cc00520d00200041a880c08000ad4220864204842001ad4220864204844284808080c0001081808080001a20012d000041fe01710d0020013100084204520d00200131001042cd00520d002001290318220042ff018342cd00510d020b000b109580808000000b200141206a24808080800020000b0900109c80808000000b7801017f23808080800041106b22022480808080000240200042ff018342cd00520d00200142ff018342cd00520d0020022000108d80808000024002402002280200450d00200229030821000c010b10828080800021000b200020011083808080002100200241106a2480808080002000420252ad0f0b000b5c01017f23808080800041106b22012480808080000240200042ff018342cd00520d0020012000108d80808000024002402001280200450d00200129030821000c010b10828080800021000b200141106a24808080800020000f0b000bf80204017f017e017f017e23808080800041c0006b220324808080800002400240200042ff018342cd00520d00200142ff018342cd00520d00200242ff018342cb00520d0020001084808080001a200210858080800042ffffffff0f580d0110868080800021042003200137031020032000370308200320044220883e021841012105200341013a001c42002000108e80808000200341086a10938080800010998080800042012000108e808080002002109980808000200341286a41d680c080004111109a8080800020032802284101460d0020032903302104200210858080800021062003200437032042022102024003402005450d012005417f6a2105200421020c000b0b20032002370328200341286a4101109b808080002104200320064280808080708342048437033820032001370330200320003703282004200341286a4103109b808080001087808080001a200341086a1093808080002104200341c0006a24808080800020040f0b000b109c80808000000b0f00200020014201108c808080001a0bdb0102017e047f02400240200241094b0d004200210320022104200121050340024020040d002003420886420e8421030c030b41012106024020052d0000220741df00460d0002400240200741506a41ff0171410a490d00200741bf7f6a41ff0171411a490d012007419f7f6a41ff0171411a4f0d04200741456a21060c020b200741526a21060c010b2007414b6a21060b20034206862006ad42ff01838421032004417f6a2104200541016a21050c000b0b2001ad4220864204842002ad42208642048410898080800021030b20004200370300200020033703080b1a002000ad4220864204842001ad4220864204841088808080000b0300000b02000b0b700100418080c0000b67616374697665637265617465645f6c65646765726f776e6572706f6c6963795f636f6e74726163740000100006000000060010000e0000001400100005000000190010000f0000004f776e65724167656e744c6973744163636f756e745265676973746572656400cb040e636f6e747261637473706563763000000002000000000000000000000007446174614b657900000000020000000100000000000000054f776e657200000000000001000000130000000100000000000000094167656e744c697374000000000000010000001300000000000000000000000b6c6973745f6167656e7473000000000100000000000000056f776e65720000000000001300000001000003ea000000130000000100000000000000000000000d4163636f756e74436f6e666967000000000000040000000000000006616374697665000000000001000000000000000e637265617465645f6c656467657200000000000400000000000000056f776e657200000000000013000000000000000f706f6c6963795f636f6e7472616374000000001300000000000000000000001072656769737465725f6163636f756e740000000300000000000000056f776e657200000000000013000000000000000f706f6c6963795f636f6e747261637400000000130000000000000011617574686f72697a65645f6167656e7473000000000003ea0000001300000001000007d00000000d4163636f756e74436f6e6669670000000000000000000000000000136765745f706f6c6963795f636f6e7472616374000000000100000000000000056f776e657200000000000013000000010000001300000000000000000000001369735f617574686f72697a65645f6167656e74000000000200000000000000056f776e65720000000000001300000000000000056167656e74000000000000130000000100000001001e11636f6e7472616374656e766d6574617630000000000000001500000000006f0e636f6e74726163746d65746176300000000000000005727376657200000000000006312e39332e3100000000000000000008727373646b7665720000002f32312e372e37233564613738396335306231386134633262653533333934313338323132666564353666306466633400008012046e616d650016156163636f756e745f72656769737472792e7761736d01c0111e00505f5a4e3137736f726f62616e5f656e765f6775657374356775657374336d617032366d61705f6e65775f66726f6d5f6c696e6561725f6d656d6f7279313768366463353533373465663162303339394501515f5a4e3137736f726f62616e5f656e765f6775657374356775657374336d617032376d61705f756e7061636b5f746f5f6c696e6561725f6d656d6f72793137686631393030303937373465653437366645023c5f5a4e3137736f726f62616e5f656e765f677565737435677565737433766563377665635f6e6577313768613436653835663933316130313739384503485f5a4e3137736f726f62616e5f656e765f67756573743567756573743376656331387665635f66697273745f696e6465785f6f66313768326336326536393637363538633930654504465f5a4e3137736f726f62616e5f656e765f677565737435677565737437616464726573733132726571756972655f617574683137686635363437333736626436613066346345053c5f5a4e3137736f726f62616e5f656e765f677565737435677565737433766563377665635f6c656e3137683631623861356131633233366538653445064d5f5a4e3137736f726f62616e5f656e765f677565737435677565737437636f6e7465787431396765745f6c65646765725f73657175656e6365313768633134393164343763616565316330314507485f5a4e3137736f726f62616e5f656e765f677565737435677565737437636f6e746578743134636f6e74726163745f6576656e74313768663564303661326564666265636366314508505f5a4e3137736f726f62616e5f656e765f67756573743567756573743376656332367665635f6e65775f66726f6d5f6c696e6561725f6d656d6f7279313768393838326438326533623630396338624509535f5a4e3137736f726f62616e5f656e765f677565737435677565737433627566323973796d626f6c5f6e65775f66726f6d5f6c696e6561725f6d656d6f727931376863623932663238653462623833383539450a4a5f5a4e3137736f726f62616e5f656e765f6775657374356775657374366c656467657231376765745f636f6e74726163745f6461746131376832373534623964336161613936323837450b4a5f5a4e3137736f726f62616e5f656e765f6775657374356775657374366c656467657231376861735f636f6e74726163745f6461746131376837306562303537643930383036326639450c4a5f5a4e3137736f726f62616e5f656e765f6775657374356775657374366c656467657231377075745f636f6e74726163745f6461746131376837373932653762653663363731383638450d3c5f5a4e3131736f726f62616e5f73646b3773746f72616765313050657273697374656e743367657431376838316564343366393634353164333563450e5e5f5a4e36305f244c542455247532302461732475323024736f726f62616e5f73646b2e2e656e762e2e496e746f56616c244c54244524432454244754242447542438696e746f5f76616c31376833376239356661313465633135373533450f425f5a4e3131736f726f62616e5f73646b3773746f726167653753746f7261676531326861735f696e7465726e616c313768636461313331613566646237633238654510425f5a4e3131736f726f62616e5f73646b3773746f726167653753746f7261676531326765745f696e7465726e616c313768336339393933623335346165633261314511a6015f5a4e3132365f244c5424736f726f62616e5f73646b2e2e73796d626f6c2e2e53796d626f6c247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e636f6e766572742e2e54727946726f6d56616c244c5424736f726f62616e5f73646b2e2e656e762e2e456e7624432424524624737472244754242447542431327472795f66726f6d5f76616c313768353837616233346462306435333430654512715f5a4e37345f244c542455247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e636f6e766572742e2e547279496e746f56616c244c54244524432454244754242447542431327472795f696e746f5f76616c3137686462363738373032366330343161383445135e5f5a4e36305f244c542455247532302461732475323024736f726f62616e5f73646b2e2e656e762e2e496e746f56616c244c54244524432454244754242447542438696e746f5f76616c313768343535646633643831656239396365394514136765745f706f6c6963795f636f6e747261637415325f5a4e34636f7265366f7074696f6e31336578706563745f6661696c65643137683731653533626635636536636261653945161369735f617574686f72697a65645f6167656e74170b6c6973745f6167656e7473181072656769737465725f6163636f756e7419725f5a4e37305f244c5424736f726f62616e5f73646b2e2e656e762e2e456e76247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e656e762e2e456e762447542431377075745f636f6e74726163745f6461746131376862353261333362343831613064663732451a99015f5a4e3131335f244c5424736f726f62616e5f656e765f636f6d6d6f6e2e2e73796d626f6c2e2e53796d626f6c247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e636f6e766572742e2e54727946726f6d56616c244c54244524432424524624737472244754242447542431327472795f66726f6d5f76616c31376864653437396633386564303761336536451b81015f5a4e38345f244c5424736f726f62616e5f656e765f67756573742e2e67756573742e2e4775657374247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e656e762e2e456e76426173652447542431387665635f6e65775f66726f6d5f736c69636531376831653865386331306233636139326637451c305f5a4e34636f72653970616e69636b696e673970616e69635f666d7431376831623934646334613436393666326238451d015f071201000f5f5f737461636b5f706f696e746572090a0100072e726f64617461004d0970726f64756365727302086c616e6775616765010452757374000c70726f6365737365642d6279010572757374631d312e39332e31202830316636646466373520323032362d30322d31312900220f7461726765745f6665617475726573012b0f6d757461626c652d676c6f62616c7300530e636f6e74726163746d65746176300000000000000006636c6976657200000000002f32352e322e30233238343834383830393838313939323333613765386538376339376362313264616333323363623300"
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_code": {
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_code": {
+                "ext": "v0",
+                "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "code": ""
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_code": {
+            "hash": "e91f1bef338d10e50702f9db78795c285c468e8dac6f0aca224c8490e95ef4ae"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_code": {
+                "ext": {
+                  "v1": {
+                    "ext": "v0",
+                    "cost_inputs": {
+                      "ext": "v0",
+                      "n_instructions": 1776,
+                      "n_functions": 20,
+                      "n_globals": 3,
+                      "n_table_entries": 0,
+                      "n_types": 16,
+                      "n_data_segments": 1,
+                      "n_elem_segments": 0,
+                      "n_imports": 15,
+                      "n_exports": 6,
+                      "n_data_segment_bytes": 284
+                    }
+                  }
+                },
+                "hash": "e91f1bef338d10e50702f9db78795c285c468e8dac6f0aca224c8490e95ef4ae",
+                "code": "0061736d01000000015a1060037e7e7e017e60027e7e017e60047e7e7e7e017e60017e017e6000017e60027e7f0060017f017e60057e7e7e7f7f0060027f7f017e60037f7e7e0060027f7e0060037f7f7f006000017f60000060017f0060037f7f7f017f025b0f016c015f0000017801310001016d01610002016d01390000016101300003017601330003016c01300001016c013100010176016400010176016700010169013800030169013700030169013600010162016a000101780133000403151405030607080309080a0a0b010c0d0d020e0d0f0f05030100110619037f01418080c0000b7f00419c82c0000b7f0041a082c0000b074806066d656d6f727902000a7365745f706f6c696379001a0f76616c69646174655f616374696f6e001e015f00200a5f5f646174615f656e6403010b5f5f686561705f6261736503020af61e141b002000109080808000200110918080800042011080808080001a0b6302017f017e23808080800041106b2201248080808000200141fb80c080004106109980808000024020012802004101470d00000b200129030821022001200037030820012002370300200141021096808080002100200141106a24808080800020000b950202017f057e23808080800041d0006b22012480808080002000350240210220002903382103200141c0006a200029032020002903281095808080000240024020012802400d002001290348210420003502442105200141c0006a2000290310200029031810958080800020012802400d0020012903482106200141c0006a2000290300200029030810958080800020012802404101470d010b000b2001200129034837033020012006370328200120043703182001200337030820012000290330370338200120054220864204843703202001200242208642048437031041e481c08000ad422086420484200141086aad4220864204844284808080f0001083808080002102200141d0006a24808080800020020b970102017f027e23808080800041306b2205248080808000418980c08000410e109380808000210620032004109380808000210720061094808080002106200541206a20012002109580808000024020052802204101470d00000b200529032821022005200737031820052002370310200520003703082006200541086a41031096808080001081808080001a200541306a2480808080000b4502017f017e23808080800041106b2202248080808000200220002001109980808000024020022802004101470d00000b20022903082103200241106a24808080800020030b6303017f017e017f23808080800041106b2201248080808000200120003703004202210241012103024003402003450d012003417f6a2103200021020c000b0b20012002370308200141086a41011096808080002100200141106a24808080800020000b5b000240024020014280808080808080c0007c42ffffffffffffffff00560d00200120018520022001423f8785844200520d002001420886420b8421010c010b20022001108c8080800021010b20004200370300200020013703080b1a002000ad4220864204842001ad4220864204841089808080000bac0302027f097e23808080800041e0006b2202248080808000410021030240034020034138460d01200241086a20036a4202370300200341086a21030c000b0b42002104420121050240200142ff018342cc00520d00200141e481c08000ad422086420484200241086aad4220864204844284808080f0001082808080001a2002290308220142ff018342cb00520d002002290310220642ff01834204520d00200241c0006a200229031810988080800020022802404101460d002002290320220742ff01834204520d002002290358210820022903502109200241c0006a200229032810988080800020022802404101460d002002290358210a2002290350210b200241c0006a200229033010988080800020022802404101460d002002290338220c42ff018342cd00520d002002290358210420022903502105200020093703302000200b3703202000200537031020002007422088a736025420002006422088a7360250200020013703482000200c370340200020083703382000200a3703282000200437031842002105420021040b2000200537030020002004370308200241e0006a2480808080000b7d02017f017e02400240024002402001a741ff0171220241c500460d002002410b470d0220002001423f87370318200020014208873703100c010b2001108a8080800021032001108b80808000210120002003370318200020013703100b420021010c010b200042839080808001370308420121010b200020013703000bdb0102017e047f02400240200241094b0d004200210320022104200121050340024020040d002003420886420e8421030c030b41012106024020052d0000220741df00460d0002400240200741506a41ff0171410a490d00200741bf7f6a41ff0171411a490d012007419f7f6a41ff0171411a4f0d04200741456a21060c020b200741526a21060c010b2007414b6a21060b20034206862006ad42ff01838421032004417f6a2104200541016a21050c000b0b2001ad4220864204842002ad422086420484108d8080800021030b20004200370300200020033703080bd40403017f057e027f23808080800041e0016b22022480808080000240024002400240200042ff018342cd00520d00200241f0006a200110978080800020022802704101710d00200241e0006a200241b0016a290300370300200220022903a0013703502002200241a8016a290300370358200229039801210320022903900121042002290388012101200229038001210520022903b801210620022903c801210720022802c401210820001084808080001a2008109b8080800022094d0d01200941fffef7664b0d022008200941808188196a4f0d01200542005220014200552001501b450d01200442005220034200552003501b450d01200420055a200320015a20032001511b450d01200610858080800042ffffffff0f580d0120024198016a4200370300200241a0016a200241e0006a2903003703002002200437038001200220053703702002420037039001200220073703b801200220083602b401200220063703a801200220093602b0012002200337038801200220013703782000200241f0006a108f80808000418080c0800041091093808080001094808080002106200241d0016a2005200110958080800020022802d0010d0020022903d8012101200241d0016a2004200310958080800020022802d0014101470d030b000b109c80808000000b109d80808000000b200220022903d801370310200220013703082002200037030020022008ad4220864204843703182006200241041096808080001081808080001a2002200241f0006a41d00010a28080800022021091808080002101200241e0016a24808080800020010b0c00108e80808000422088a70b0300000b0900109c80808000000bd00504027f027e017f017e23808080800041c0016b220424808080800002400240024002400240024002400240200042ff018342cd00520d00200142ff018342cd00520d0002402002a741ff01712205410e460d00200541ca00470d010b200441d0006a200310988080800020042802504101460d0020042903682103200429036021062000109080808000220742011086808080004201520d01200441d0006a2007420110878080800010978080800020042802504101710d002004200441e0006a41d00010a2808080002104109b80808000220520042802444b0d020240200429033820021088808080004202520d00200120062003419780c08000410f1092808080000c070b4200210220065020034200532003501b0d0320062004290300562003200429030822025520032002511b0d040240024002402004280240220841fff87e4b0d0020052008418087016a4b0d0120042903282102200429032021070c020b109d80808000000b2004200536024042002107420021020b2002200385427f852002200220037c200720067c2209200754ad7c22078583427f570d05024020092004290310562007200429031822025520072002511b0d00200420093703202004200737032820002004108f8080800041a680c08000410e1093808080001094808080002102200441b0016a2006200310958080800020042802b0014101460d01200420042903b801370360200420003703582004200137035020042005ad4220864204843703682002200441d0006a41041096808080001081808080001a420121020c080b20012006200341b480c0800041111092808080000c060b000b4112109f80808000000b20012006200341ee80c08000410d1092808080000c030b20012006200341da80c0800041141092808080000c030b20012006200341c580c0800041151092808080000c010b4120109f80808000000b420021020b200441c0016a24808080800020020b0900109c80808000000b02000bba07010c7f23808080800041106b210302400240200241104f0d00200021040c010b024020002000410020006b41037122056a22064f0d002005417f6a2107200021042001210802402005450d002005210920002104200121080340200420082d00003a0000200841016a2108200441016a21042009417f6a22090d000b0b20074107490d000340200420082d00003a0000200441016a200841016a2d00003a0000200441026a200841026a2d00003a0000200441036a200841036a2d00003a0000200441046a200841046a2d00003a0000200441056a200841056a2d00003a0000200441066a200841066a2d00003a0000200441076a200841076a2d00003a0000200841086a2108200441086a22042006470d000b0b2006200220056b2209417c7122076a210402400240200120056a22084103712201450d00410021022003410036020c2003410c6a20017221050240410420016b220a410171450d00200520082d00003a0000410121020b0240200a410271450d00200520026a200820026a2f01003b01000b200820016b21022001410374210b200328020c210502400240200641046a2004490d002006210c0c010b4100200b6b411871210d034020062005200b76200241046a22022802002205200d7472360200200641086a210a200641046a220c2106200a2004490d000b0b41002106200341003a0008200341003a00060240024020014101470d00200341086a210d410021014100210a4100210e0c010b200241056a2d0000210a2003200241046a2d000022013a0008200a410874210a4102210e200341066a210d0b02402008410171450d00200d200241046a200e6a2d00003a000020032d0006411074210620032d000821010b200c200a200672200141ff0171724100200b6b411871742005200b76723602000c010b200620044f0d0020082101034020062001280200360200200141046a2101200641046a22062004490d000b0b20094103712102200820076a21010b02402004200420026a22064f0d002002417f6a2109024020024107712208450d000340200420012d00003a0000200141016a2101200441016a21042008417f6a22080d000b0b20094107490d000340200420012d00003a0000200441016a200141016a2d00003a0000200441026a200141026a2d00003a0000200441036a200141036a2d00003a0000200441046a200141046a2d00003a0000200441056a200141056a2d00003a0000200441066a200141066a2d00003a0000200441076a200141076a2d00003a0000200141086a2101200441086a22042006470d000b0b20000b0e0020002001200210a1808080000b0ba6020100418080c0000b9c02506f6c696379536574416374696f6e52656a656374656441737365744e6f74416c6c6f776564416374696f6e417070726f766564457863656564734461696c794c696d697445786365656473506572416374696f6e4c696d6974416d6f756e744d7573744265506f736974697665506f6c69637945787069726564506f6c696379616c6c6f7765645f6173736574736461696c795f72657365745f6c65646765726461696c795f7370656e746578706972795f6c65646765726d61785f6461696c795f7370656e646d61785f7370656e645f7065725f616374696f6e6f776e6572000000810010000e0000008f00100012000000a10010000b000000ac0010000d000000b90010000f000000c800100014000000dc00100005000000008f040e636f6e747261637473706563763000000002000000000000000000000007446174614b65790000000001000000010000000000000006506f6c6963790000000000010000001300000000000000000000000a7365745f706f6c69637900000000000200000000000000056f776e6572000000000000130000000000000006636f6e6669670000000007d00000000c506f6c696379436f6e66696700000001000007d00000000c506f6c696379436f6e6669670000000100000000000000000000000c506f6c696379436f6e66696700000007000000000000000e616c6c6f7765645f6173736574730000000003ea0000001100000000000000126461696c795f72657365745f6c6564676572000000000004000000000000000b6461696c795f7370656e74000000000b000000000000000d6578706972795f6c656467657200000000000004000000000000000f6d61785f6461696c795f7370656e64000000000b00000000000000146d61785f7370656e645f7065725f616374696f6e0000000b00000000000000056f776e65720000000000001300000000000000000000000f76616c69646174655f616374696f6e000000000400000000000000056f776e65720000000000001300000000000000056167656e740000000000001300000000000000056173736574000000000000110000000000000006616d6f756e7400000000000b0000000100000001001e11636f6e7472616374656e766d6574617630000000000000001500000000006f0e636f6e74726163746d65746176300000000000000005727376657200000000000006312e39332e3100000000000000000008727373646b7665720000002f32312e372e3723356461373839633530623138613463326265353333393431333832313266656435366630646663340000e415046e616d65001312706f6c6963795f656e67696e652e7761736d01a71523004a5f5a4e3137736f726f62616e5f656e765f6775657374356775657374366c656467657231377075745f636f6e74726163745f64617461313768373739326537626536633637313836384501485f5a4e3137736f726f62616e5f656e765f677565737435677565737437636f6e746578743134636f6e74726163745f6576656e74313768663564303661326564666265636366314502515f5a4e3137736f726f62616e5f656e765f6775657374356775657374336d617032376d61705f756e7061636b5f746f5f6c696e6561725f6d656d6f7279313768663139303030393737346565343736664503505f5a4e3137736f726f62616e5f656e765f6775657374356775657374336d617032366d61705f6e65775f66726f6d5f6c696e6561725f6d656d6f7279313768366463353533373465663162303339394504465f5a4e3137736f726f62616e5f656e765f677565737435677565737437616464726573733132726571756972655f617574683137686635363437333736626436613066346345053c5f5a4e3137736f726f62616e5f656e765f677565737435677565737433766563377665635f6c656e3137683631623861356131633233366538653445064a5f5a4e3137736f726f62616e5f656e765f6775657374356775657374366c656467657231376861735f636f6e74726163745f646174613137683730656230353764393038303632663945074a5f5a4e3137736f726f62616e5f656e765f6775657374356775657374366c656467657231376765745f636f6e74726163745f64617461313768323735346239643361616139363238374508485f5a4e3137736f726f62616e5f656e765f67756573743567756573743376656331387665635f66697273745f696e6465785f6f66313768326336326536393637363538633930654509505f5a4e3137736f726f62616e5f656e765f67756573743567756573743376656332367665635f6e65775f66726f6d5f6c696e6561725f6d656d6f727931376839383832643832653362363039633862450a465f5a4e3137736f726f62616e5f656e765f677565737435677565737433696e7431366f626a5f746f5f693132385f6869363431376865373134323833626538303538366566450b465f5a4e3137736f726f62616e5f656e765f677565737435677565737433696e7431366f626a5f746f5f693132385f6c6f363431376830356530373830353835373630633064450c4a5f5a4e3137736f726f62616e5f656e765f677565737435677565737433696e7432306f626a5f66726f6d5f693132385f70696563657331376830323865383133623932326239663230450d535f5a4e3137736f726f62616e5f656e765f677565737435677565737433627566323973796d626f6c5f6e65775f66726f6d5f6c696e6561725f6d656d6f727931376863623932663238653462623833383539450e4d5f5a4e3137736f726f62616e5f656e765f677565737435677565737437636f6e7465787431396765745f6c65646765725f73657175656e636531376863313439316434376361656531633031450f3c5f5a4e3131736f726f62616e5f73646b3773746f72616765313050657273697374656e74337365743137683030333434343232663939313239663545105e5f5a4e36305f244c542455247532302461732475323024736f726f62616e5f73646b2e2e656e762e2e496e746f56616c244c54244524432454244754242447542438696e746f5f76616c3137683437663039623665363035383330646145115e5f5a4e36305f244c542455247532302461732475323024736f726f62616e5f73646b2e2e656e762e2e496e746f56616c244c54244524432454244754242447542438696e746f5f76616c313768313764646238643733643338353230644512445f5a4e3133706f6c6963795f656e67696e653132506f6c696379456e67696e653134656d69745f72656a656374696f6e313768656266666463303037313036396631324513365f5a4e3131736f726f62616e5f73646b3673796d626f6c3653796d626f6c336e65773137686230333336633136326134633832323645145e5f5a4e36305f244c542455247532302461732475323024736f726f62616e5f73646b2e2e656e762e2e496e746f56616c244c54244524432454244754242447542438696e746f5f76616c31376835616638626363623936376230336365451590015f5a4e3130345f244c5424736f726f62616e5f656e765f636f6d6d6f6e2e2e76616c2e2e56616c247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e636f6e766572742e2e54727946726f6d56616c244c54244524432469313238244754242447542431327472795f66726f6d5f76616c31376864383537633737396634386462623965451681015f5a4e38345f244c5424736f726f62616e5f656e765f67756573742e2e67756573742e2e4775657374247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e656e762e2e456e76426173652447542431387665635f6e65775f66726f6d5f736c696365313768316538653863313062336361393266374517bb015f5a4e3134375f244c5424706f6c6963795f656e67696e652e2e506f6c696379436f6e666967247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e636f6e766572742e2e54727946726f6d56616c244c5424736f726f62616e5f73646b2e2e656e762e2e456e76244324736f726f62616e5f656e765f636f6d6d6f6e2e2e76616c2e2e56616c244754242447542431327472795f66726f6d5f76616c31376866303861323761643130336565373635451890015f5a4e3130345f244c542469313238247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e636f6e766572742e2e54727946726f6d56616c244c542445244324736f726f62616e5f656e765f636f6d6d6f6e2e2e76616c2e2e56616c244754242447542431327472795f66726f6d5f76616c31376865616262353061356462373633303636451999015f5a4e3131335f244c5424736f726f62616e5f656e765f636f6d6d6f6e2e2e73796d626f6c2e2e53796d626f6c247532302461732475323024736f726f62616e5f656e765f636f6d6d6f6e2e2e636f6e766572742e2e54727946726f6d56616c244c54244524432424524624737472244754242447542431327472795f66726f6d5f76616c31376864653437396633386564303761336536451a0a7365745f706f6c6963791b3b5f5a4e3131736f726f62616e5f73646b366c6564676572364c65646765723873657175656e636531376864333265333737656632653561323666451c305f5a4e34636f72653970616e69636b696e673970616e69635f666d7431376831623934646334613436393666326238451d4d5f5a4e34636f72653970616e69636b696e67313170616e69635f636f6e7374323470616e69635f636f6e73745f6164645f6f766572666c6f7731376861633034656133363836393530616262451e0f76616c69646174655f616374696f6e1f325f5a4e34636f7265366f7074696f6e31336578706563745f6661696c6564313768373165353362663563653663626165394520015f21355f5a4e3137636f6d70696c65725f6275696c74696e73336d656d366d656d637079313768643839313562396664623461353061334522066d656d637079071201000f5f5f737461636b5f706f696e746572090a0100072e726f64617461004d0970726f64756365727302086c616e6775616765010452757374000c70726f6365737365642d6279010572757374631d312e39332e31202830316636646466373520323032362d30322d31312900220f7461726765745f6665617475726573012b0f6d757461626c652d676c6f62616c7300530e636f6e74726163746d65746176300000000000000006636c6976657200000000002f32352e322e30233238343834383830393838313939323333613765386538376339376362313264616333323363623300"
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ]
+    ]
+  },
+  "events": [
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "54ca65a58200bfffb708756d19fd134e1677063f85bb87e0c7a54abb480d375c"
+              },
+              {
+                "symbol": "register_account"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "address": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK"
+                },
+                {
+                  "vec": [
+                    {
+                      "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "54ca65a58200bfffb708756d19fd134e1677063f85bb87e0c7a54abb480d375c",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "AccountRegistered"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "address": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK"
+                },
+                {
+                  "u32": 1
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "54ca65a58200bfffb708756d19fd134e1677063f85bb87e0c7a54abb480d375c",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "register_account"
+              }
+            ],
+            "data": {
+              "map": [
+                {
+                  "key": {
+                    "symbol": "active"
+                  },
+                  "val": {
+                    "bool": true
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "created_ledger"
+                  },
+                  "val": {
+                    "u32": 0
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "owner"
+                  },
+                  "val": {
+                    "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "policy_contract"
+                  },
+                  "val": {
+                    "address": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "628003fbab90a7e70ce9b6b33cbb69845bae3b45b5a628984803b805cc9d2711"
+              },
+              {
+                "symbol": "set_policy"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "allowed_assets"
+                      },
+                      "val": {
+                        "vec": [
+                          {
+                            "symbol": "USDC"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "daily_reset_ledger"
+                      },
+                      "val": {
+                        "u32": 0
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "daily_spent"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 0
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "expiry_ledger"
+                      },
+                      "val": {
+                        "u32": 1000000
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "max_daily_spend"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 50000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "max_spend_per_action"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 10000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "owner"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "628003fbab90a7e70ce9b6b33cbb69845bae3b45b5a628984803b805cc9d2711",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "PolicySet"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "i128": {
+                    "hi": 0,
+                    "lo": 10000000000
+                  }
+                },
+                {
+                  "i128": {
+                    "hi": 0,
+                    "lo": 50000000000
+                  }
+                },
+                {
+                  "u32": 1000000
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "628003fbab90a7e70ce9b6b33cbb69845bae3b45b5a628984803b805cc9d2711",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "set_policy"
+              }
+            ],
+            "data": {
+              "map": [
+                {
+                  "key": {
+                    "symbol": "allowed_assets"
+                  },
+                  "val": {
+                    "vec": [
+                      {
+                        "symbol": "USDC"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "daily_reset_ledger"
+                  },
+                  "val": {
+                    "u32": 0
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "daily_spent"
+                  },
+                  "val": {
+                    "i128": {
+                      "hi": 0,
+                      "lo": 0
+                    }
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "expiry_ledger"
+                  },
+                  "val": {
+                    "u32": 1000000
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "max_daily_spend"
+                  },
+                  "val": {
+                    "i128": {
+                      "hi": 0,
+                      "lo": 50000000000
+                    }
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "max_spend_per_action"
+                  },
+                  "val": {
+                    "i128": {
+                      "hi": 0,
+                      "lo": 10000000000
+                    }
+                  }
+                },
+                {
+                  "key": {
+                    "symbol": "owner"
+                  },
+                  "val": {
+                    "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44"
+              },
+              {
+                "symbol": "init_asset"
+              }
+            ],
+            "data": {
+              "bytes": "0000000161616100000000000000000000000000000000000000000000000000000000000000000000000008"
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "init_asset"
+              }
+            ],
+            "data": "void"
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44"
+              },
+              {
+                "symbol": "set_admin"
+              }
+            ],
+            "data": {
+              "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "set_admin"
+              },
+              {
+                "address": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE"
+              },
+              {
+                "string": "aaa:GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE"
+              }
+            ],
+            "data": {
+              "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "set_admin"
+              }
+            ],
+            "data": "void"
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44"
+              },
+              {
+                "symbol": "mint"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "i128": {
+                    "hi": 0,
+                    "lo": 10000000000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "mint"
+              },
+              {
+                "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
+              },
+              {
+                "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+              },
+              {
+                "string": "aaa:GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE"
+              }
+            ],
+            "data": {
+              "i128": {
+                "hi": 0,
+                "lo": 10000000000
+              }
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "mint"
+              }
+            ],
+            "data": "void"
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000003"
+              },
+              {
+                "symbol": "execute_action"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CBKMUZNFQIAL775XBB2W2GP5CNHBM5YGH6C3XB7AY6SUVO2IBU3VYK2V"
+                },
+                {
+                  "map": [
+                    {
+                      "key": {
+                        "symbol": "agent"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "amount"
+                      },
+                      "val": {
+                        "i128": {
+                          "hi": 0,
+                          "lo": 5000000000
+                        }
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "asset_contract"
+                      },
+                      "val": {
+                        "address": "CD3FXVGYSLQFFTW3UH6WFF2OKZH7VERGZJZAMJHTGHBWO4F6URWEJL23"
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "destination"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+                      }
+                    },
+                    {
+                      "key": {
+                        "symbol": "owner"
+                      },
+                      "val": {
+                        "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000003",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "54ca65a58200bfffb708756d19fd134e1677063f85bb87e0c7a54abb480d375c"
+              },
+              {
+                "symbol": "is_authorized_agent"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "54ca65a58200bfffb708756d19fd134e1677063f85bb87e0c7a54abb480d375c",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "is_authorized_agent"
+              }
+            ],
+            "data": {
+              "bool": true
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000003",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "AgentVerified"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000003",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "54ca65a58200bfffb708756d19fd134e1677063f85bb87e0c7a54abb480d375c"
+              },
+              {
+                "symbol": "get_policy_contract"
+              }
+            ],
+            "data": {
+              "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "54ca65a58200bfffb708756d19fd134e1677063f85bb87e0c7a54abb480d375c",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "get_policy_contract"
+              }
+            ],
+            "data": {
+              "address": "CBRIAA73VOIKPZYM5G3LGPF3NGCFXLR3IW22MKEYJAB3QBOMTUTRCASK"
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000003",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "628003fbab90a7e70ce9b6b33cbb69845bae3b45b5a628984803b805cc9d2711"
+              },
+              {
+                "symbol": "validate_action"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                },
+                {
+                  "symbol": "USDC"
+                },
+                {
+                  "i128": {
+                    "hi": 0,
+                    "lo": 5000000000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "628003fbab90a7e70ce9b6b33cbb69845bae3b45b5a628984803b805cc9d2711",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "ActionApproved"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "i128": {
+                    "hi": 0,
+                    "lo": 5000000000
+                  }
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "628003fbab90a7e70ce9b6b33cbb69845bae3b45b5a628984803b805cc9d2711",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "validate_action"
+              }
+            ],
+            "data": {
+              "bool": true
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000003",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44"
+              },
+              {
+                "symbol": "transfer"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+                },
+                {
+                  "i128": {
+                    "hi": 0,
+                    "lo": 5000000000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "transfer"
+              },
+              {
+                "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+              },
+              {
+                "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+              },
+              {
+                "string": "aaa:GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUDE"
+              }
+            ],
+            "data": {
+              "i128": {
+                "hi": 0,
+                "lo": 5000000000
+              }
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "f65bd4d892e052cedba1fd62974e564ffa9226ca720624f331c36770bea46c44",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "transfer"
+              }
+            ],
+            "data": "void"
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000003",
+        "type_": "contract",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "ActionExecuted"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+                },
+                {
+                  "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDR4"
+                },
+                {
+                  "i128": {
+                    "hi": 0,
+                    "lo": 5000000000
+                  }
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000003",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "execute_action"
+              }
+            ],
+            "data": {
+              "bool": true
+            }
+          }
+        }
+      },
+      "failed_call": false
+    }
+  ]
+}

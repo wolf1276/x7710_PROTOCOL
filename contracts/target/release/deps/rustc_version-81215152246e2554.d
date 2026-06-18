@@ -1,0 +1,7 @@
+C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\release\deps\rustc_version-81215152246e2554.d: C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustc_version-0.4.1\src\lib.rs
+
+C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\release\deps\librustc_version-81215152246e2554.rlib: C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustc_version-0.4.1\src\lib.rs
+
+C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\release\deps\librustc_version-81215152246e2554.rmeta: C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustc_version-0.4.1\src\lib.rs
+
+C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustc_version-0.4.1\src\lib.rs:

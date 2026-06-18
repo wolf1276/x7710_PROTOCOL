@@ -1,0 +1,14 @@
+C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\debug\deps\serde-679105cc5dacf125.d: C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\debug\build\serde-a3d5cc7c79f19dbb\out/private.rs
+
+C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\debug\deps\libserde-679105cc5dacf125.rlib: C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\debug\build\serde-a3d5cc7c79f19dbb\out/private.rs
+
+C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\debug\deps\libserde-679105cc5dacf125.rmeta: C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\debug\build\serde-a3d5cc7c79f19dbb\out/private.rs
+
+C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\RAAJ\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\RAAJ\Desktop\code\x7710_PROTOCOL\contracts\target\debug\build\serde-a3d5cc7c79f19dbb\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\RAAJ\\Desktop\\code\\x7710_PROTOCOL\\contracts\\target\\debug\\build\\serde-a3d5cc7c79f19dbb\\out
