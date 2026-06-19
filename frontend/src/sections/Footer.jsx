@@ -48,8 +48,8 @@ export default function Footer() {
         }
       `}</style>
       {/* Content container layered above the graphic */}
-      <div className="relative z-10 max-w-[1600px] mx-auto px-8 md:px-12 -left-70 pb-22">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
+      <div className="relative z-10 max-w-[1450px] mx-auto px-8 md:px-12 lg:-translate-x-40 xl:-translate-x-48 pb-22">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10">
           {/* Left Side: Logo, Headline, Links */}
           <div className="lg:col-span-6 flex flex-col justify-start gap-10">
             <div>
@@ -63,7 +63,7 @@ export default function Footer() {
               </div>
 
               {/* Headline */}
-              <h2 className="text-5xl md:text-6xl lg:text-[76px] font-bold tracking-tight text-zinc-900 leading-[1.15] mb-12 max-w-2xl">
+              <h2 className="text-5xl md:text-6xl lg:text-[68px] font-bold tracking-tight text-zinc-900 leading-[1.15] mb-12 max-w-2xl">
                 Define the rules.
                 <br />
                 Move the capital.
@@ -117,12 +117,13 @@ export default function Footer() {
           </div>
 
           {/* Right Side: Waitlist Separator & Form */}
-          <div className="lg:col-span-6 border-t lg:border-t-0 lg:border-l border-zinc-200 pt-16 lg:pt-0 lg:pl-16 flex flex-col justify-start">
+          <div className="lg:col-span-6 border-t lg:border-t-0 pt-16 lg:pt-0 lg:pl-16 flex flex-col justify-start relative">
+            <div className="hidden lg:block absolute left-0 top-0 h-[400px] w-px bg-zinc-100" />
             <span className="text-xs font-mono font-bold tracking-[0.2em] text-zinc-400 uppercase mb-6 block">
               Waitlist
             </span>
 
-            <h3 className="text-4xl md:text-5xl font-bold tracking-tight text-zinc-900 leading-[1.2] mb-6 max-w-md">
+            <h3 className="text-4xl lg:text-[56px] font-bold tracking-tight text-zinc-900 leading-[1.15] mb-6 max-w-md">
               Be first to build
               <br />
               agent-controlled capital
@@ -135,7 +136,7 @@ export default function Footer() {
 
             <form
               onSubmit={(e) => e.preventDefault()}
-              className="relative flex items-center justify-between border-b border-zinc-300 pb-2 max-w-lg group"
+              className="relative flex items-center justify-between border-b border-zinc-300 pb-2 max-w-[470px] group"
             >
               <input
                 type="email"
@@ -167,11 +168,24 @@ export default function Footer() {
       </div>
 
       {/* Background Graphic: Oversized, cropped, layered underneath */}
-      <div className="absolute bottom-20 left-380 -translate-x-1/2 w-[1800px] md:w-[2000px] lg:w-[2200px] pointer-events-none z-0 translate-y-[47%]">
+      <div
+        className="
+    absolute
+    bottom-20
+    right-[-11%]
+    w-[1500px]
+md:w-[1700px]
+lg:w-[1900px]
+    pointer-events-none
+    z-0
+    translate-y-[44%]
+    opacity-80
+  "
+      >
         <img
           src={footerImg}
           alt="X7710 Graphic"
-          className="w-full h-auto object-contain  m  animate-reveal-graphic"
+          className="w-full h-auto object-contain animate-reveal-graphic"
         />
       </div>
     </footer>
