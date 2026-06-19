@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import hero from "../assets/hero.png";
 
-const WORDS = ["GUARDRAILS.", "POLICIES.", "PERMISSIONS.", "LIMITS.", "CONTROL."];
+const WORDS = ["GUARDRAILS.", "POLICIES.", "LIMITS.", "CONTROL."];
 const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 export default function Hero() {
@@ -85,7 +85,8 @@ export default function Hero() {
           </div>
 
           <p className="max-w-2xl text-xl lg:text-2xl text-zinc-500 font-light leading-relaxed">
-            Set the rules once. Let autonomous agents execute safely without giving up control of capital.
+            Set the rules once. Let autonomous agents execute safely without
+            giving up control of capital.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 pt-4">
